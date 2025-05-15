@@ -22,12 +22,11 @@ const HeroSection = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-mkw-primary rounded-lg blur opacity-20 animate-pulse-subtle"></div>
               <div className="relative bg-white rounded-lg shadow-xl overflow-hidden">
-                <div className="w-full h-64 md:h-80 bg-gray-200 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 22V12h6v10" />
-                  </svg>
-                </div>
+                <img 
+                  src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  alt="Ambiente protegido contra pragas" 
+                  className="w-full h-64 md:h-80 object-cover"
+                />
               </div>
             </div>
           </div>
