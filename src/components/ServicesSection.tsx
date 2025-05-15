@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Bug, Rat, FormAnts, Mosquito } from 'lucide-react';
+import { Bug, Rat, Spray, Biohazard } from 'lucide-react';
 import WhatsAppButton from './WhatsAppButton';
 
 const ServicesSection = () => {
@@ -16,12 +16,12 @@ const ServicesSection = () => {
       description: 'Controle de ratos e roedores com técnicas seguras e eficientes.'
     },
     {
-      icon: FormAnts,
+      icon: Spray,
       title: 'Controle de Formigas',
       description: 'Combate especializado contra diferentes espécies de formigas.'
     },
     {
-      icon: Mosquito,
+      icon: Biohazard,
       title: 'Controle de Mosquitos',
       description: 'Proteção contra dengue, zika e outros vetores prejudiciais à saúde.'
     },
